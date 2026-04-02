@@ -26,3 +26,25 @@ const myFunction = function (){
 //console.log(typeof bigNumber);
 // console.log(typeof outsideTemp);
 //datatypes table link => https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Data_structures
+
+//*********************************************************************//
+
+// two types of memory js
+//1.stack (primitive), 2.Heap (Non primitive) 
+
+let myyoutubename = "Aapkuahnhai"
+// this is primitive typ 
+let anothername = myyoutubename
+anothername = "ashishwithcode"
+console.log(myyoutubename);
+    
+console.log(anothername);
+let userOne = { Email: "user@google.com",
+    upi: "use@ybl"
+}
+
+let userTwo = userOne
+userTwo.Email = "Ashish@google.com"
+console.log(userOne.Email);
+console.log(userTwo.Email);
+
